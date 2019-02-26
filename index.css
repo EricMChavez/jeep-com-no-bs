@@ -41,4 +41,52 @@ header{
     height: 123vw;
     background-image: url(splash_mobile.jpg);
     background-size: contain;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#motortrend{
+    width: 200px;
+    margin: 6px;
+}
+sub{
+    position: relative;
+    top:3px;
+    font-size: 11px
+}
+#react{
+    line-height: 20px;
+    margin: 6px;
+}
+p{
+    font-size: 10px;
+}
+.button{
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFBA01;
+    padding: 13px 0;
+    width: 247px;
+    margin: 17px;
+    color: black;
+    border-radius: 2px;
+}
+.button::after{
+    font-family: 'Font Awesome 5 Free';
+    content: ' \f054';
+    margin-left: 6px;
+    font-size: 12px
+}
+.reference{
+    font-size: 9px;
+    background-color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    color: black;
+    padding: 2px 3px 1px;
+    border-radius: 10px;
+    margin: 3px;
 }
