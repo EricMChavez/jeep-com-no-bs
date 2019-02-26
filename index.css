@@ -14,30 +14,31 @@ header{
     font-weight: 700;
     padding: 0 15px;
 }
-#logo{
-    height: 44px;
-    width: 63px;
-    margin-right: auto;
-    background-image: url(logo.png);
+    #logo{
+        height: 44px;
+        width: 63px;
+        margin-right: auto;
+        background-image: url(logo.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .nav{
+        margin: 30px;
+    }
+        .chevron::after{
+            font-family: 'Font Awesome 5 Free';
+            content: ' \f078';
+            margin-left: 8px;
+        }
+        #menu::after{
+            font-family: 'Font Awesome 5 Free';
+            content: ' \f0c9';
+            margin-left: 2px;
+        }
+
+#splash{
+    height: 123vw;
+    background-image: url(splash_mobile.jpg);
     background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-i{
-    margin: 9px;
-}
-.nav{
-    margin: 30px;
-}
-.chevron::after{
-    font-family: 'Font Awesome 5 Free';
-    content: ' \f078';
-    margin-left: 8px;
-}
-#menu::after{
-    font-family: 'Font Awesome 5 Free';
-    content: ' \f0c9';
-    margin-left: 2px;
-}
-
-
