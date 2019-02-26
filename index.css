@@ -1,0 +1,43 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightcyan;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    background-color: black;
+    height: 45px;
+    padding: 1px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+#logo{
+    height: 44px;
+    width: 63px;
+    margin-right: auto;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+i{
+    margin: 9px;
+}
+.nav{
+    margin: 30px;
+}
+.chevron::after{
+    font-family: 'Font Awesome 5 Free';
+    content: ' \f078';
+    margin-left: 8px;
+}
+#menu::after{
+    font-family: 'Font Awesome 5 Free';
+    content: ' \f0c9';
+    margin-left: 2px;
+}
+
+
