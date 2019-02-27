@@ -1,6 +1,5 @@
 :root{
     font-family: 'Roboto', sans-serif;
-    background-color: lightcyan;
 }
 header{
     display: flex;
@@ -38,9 +37,10 @@ header{
         }
 
 #splash{
-    height: 123vw;
+    height: 124vw;
     background-image: url(splash_mobile.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     padding: 20px 40px;
     color: white;
     text-align: center;
@@ -90,3 +90,83 @@ p{
     border-radius: 10px;
     margin: 3px;
 }
+#vehicle_title{
+    font-family: proxima-nova, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+#vehicles{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    padding: 10px
+}
+    .card{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 150px;
+    }
+        .card_title{
+            font-family: proxima-nova, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center
+            }
+        .card_price{
+            margin: 8px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+        }
+            .card_price::before{
+                display: block;
+                content: 'MSRP* STARTING AT';
+                font-size: 9px;
+                color: #636363;
+                font-weight: 400;
+            }
+            .card_price::after{
+                content: '14';
+                color: white;
+                font-size: 8px;
+                background-color: #515151;
+                padding:1px;
+                border-radius: 10px;
+                position: relative;
+                bottom: 4px;
+            }
+        .mug{
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 55%;
+        }
+            .wrangler{background-image: url(wrangler.jpg);}
+            .g_cherokee{background-image: url(g_cherokee.jpg);}
+            .cherokee{background-image: url(cherokee.jpg);}
+            .compass{background-image: url(compass.jpg);}
+            .renegade{background-image: url(renegade.jpg);}
+            .gladiator{background-image: url(gladiator.jpg);}
+#tiles{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #D1D1D1;
+}
+    .tile{
+        width: 100%;
+        height: 243px;
+        margin-bottom: 20px
+    }
+        .banner{
+            width: 100%;
+            height: 50%;
+            background-size: cover;
+            background-position: center
+        }
+        .t_compass{background-image: url(compass_tile.jpg)}
+        .t_g_cherokee{background-image: url(g-cherokee_tile.jpg)}
+        .t_cherokee{background-image: url(cherokee_tile.jpg)}
