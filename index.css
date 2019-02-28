@@ -274,7 +274,6 @@ sub{
             border-bottom-right-radius: 3px;
         }
 #footer{
-    height: 850px;
     background-color: black;
     color: white;
     padding: 40px 26px
