@@ -55,13 +55,13 @@ header{
 sub{
     position: relative;
     top:3px;
-    font-size: 11px
+    font-size: 11px;
 }
 #react{
     line-height: 20px;
     margin: 6px;
 }
-p{
+#tag{
     font-size: 10px;
 }
 .button{
@@ -101,7 +101,7 @@ p{
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    padding: 10px
+    padding: 10px 10px 50px;
 }
     .card{
         background-size: contain;
@@ -321,7 +321,8 @@ p{
         p{
             color: rgba(255, 255, 255, .8);
             margin: 15px 0;
-            line-height: 1.4
+            line-height: 1.4;
+            font-size: 10px;
         }
         span{
             margin: 0 7px;
