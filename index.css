@@ -226,3 +226,50 @@ p{
     color: white;
     font-size: 14px;
 }
+#map{
+    background-color: #212121;
+    padding: 25px
+}
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    height: 115px;
+    color:#BFBFBF;
+    align-items: center;
+    columns: 2;
+    align-content: space-between;
+}
+.link{
+    min-width: 50%;
+    align-self: baseline
+}
+#automobility{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+i{
+    margin: 7px;
+}
+#search{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    color: black;
+    border-radius: 3px;
+    margin: 40px 0;
+}
+#search_button{
+    font-family: proxima-nova, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FFBA01;
+    width: 76px;
+    margin-left: auto;
+    padding: 12px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
