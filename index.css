@@ -51,9 +51,34 @@ header{
             display: none;
         }
     }
+    
+        #pop-up{
+            display: none;
+        }
     @media (min-width: 1000px){
         .hide3{
             display: none;
+        }  
+        header{
+            justify-content: flex-start;
+            font-size: 14px;
+        } 
+        #logo{
+            margin-right: 30px;
+        }
+    }
+    @media (min-width: 1250px){
+        #pop-up{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 80px;
+            border-left: white 1px solid;
+            display: flex;
+            align-items: center;
+        }
+        .pop{
+            margin: 20px;
         }
     }
         .chevron::after{
@@ -69,7 +94,7 @@ header{
 
 #splash{
     height: 124vw;
-    background-image: url(splash_mobile.jpg);
+    background-image: url('./splash_mobile.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px 40px;
