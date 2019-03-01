@@ -13,6 +13,12 @@ header{
     font-weight: 700;
     padding: 0 15px;
 }
+@media (min-width: 700px){
+    header{
+        height: 80px;
+        padding: 0 15px;
+    }
+}
     #logo{
         height: 44px;
         width: 63px;
@@ -22,11 +28,21 @@ header{
         background-position: center;
         background-repeat: no-repeat;
     }
+    @media (min-width: 700px){
+        #logo{
+            width: 90px;
+        }
+    }
     .nav{
         margin-right: 30px;
     }
     @media (max-width: 512px){
         .hide{
+            display: none;
+        }
+    }
+    @media (max-width: 700px){
+        .hide1{
             display: none;
         }
     }
@@ -49,9 +65,7 @@ header{
     padding: 20px 40px;
     color: white;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
 }
 @media (min-width: 512px){
     #splash{
@@ -65,14 +79,18 @@ header{
     #splash{
         background-image: url(splash.jpg);
         background-size: cover;
-        height: 40vw;
+        height: 47vw;
         max-height: 546px;
-
+        text-align: left;
+    }
+    #splash_box{
+        width: 300px;
+        float: left;
+        line-height: 1.5;
     }
 }
     #motortrend{
         width: 200px;
-        margin: 6px;
     }
     @media (min-width: 512px){
         #motortrend{
@@ -80,6 +98,13 @@ header{
             margin-top: 20px;
         }
     }
+    @media (min-width: 700px){
+        #motortrend{
+            width: 280px;
+            margin-top: 26px;
+        }
+    }
+
     sub{
         position: relative;
         top:3px;
@@ -87,10 +112,15 @@ header{
     }
     #react{
         line-height: 20px;
-        margin: 6px;
+        margin: 6px 0;
     }
     #tag{
         font-size: 10px;
+    }
+    @media (min-width: 700px){
+        #tag{
+            font-size: 12px;
+        }
     }
     .button{
         font-family: proxima-nova, sans-serif;
@@ -99,10 +129,15 @@ header{
         background-color: #FFBA01;
         padding: 13px 0;
         width: 247px;
-        margin: 17px 0;
+        margin: 17px auto;
         color: black;
         border-radius: 2px;
         text-align: center;
+    }
+    @media (min-width: 700px){
+        .button{
+            margin: 20px 0;
+        }
     }
     .button::after{
         font-family: 'Font Awesome 5 Free';
@@ -197,19 +232,30 @@ header{
 #tiles{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 20px 0 20px;
     background-color: #D1D1D1;
+    padding: 10px
 }
     .tile{
-        width: 100%;
+        min-width: 325px;
+        flex: 1;
         height: 243px;
-        margin-bottom: 20px
+        margin: 10px;
+    }
+    @media (min-width: 512px){
+        .tile{
+            height: 310px;
+        }
     }
         .banner{
             width: 100%;
             height: 50%;
             background-size: cover;
             background-position: center
+        }
+        @media (min-width: 512px){
+            .banner{
+                height: 70%;
+            }
         }
             .t_compass{background-image: url(compass_tile.jpg)}
             .t_g_cherokee{background-image: url(g-cherokee_tile.jpg)}
@@ -223,11 +269,16 @@ header{
             line-height: 18px;
             height: 25%;
         }
+        @media (min-width: 512px){
+            .lable{
+                height: 13%;
+            }
+        }
         b{
             font-weight: 700;
         }
         .call{
-            height: 13%;
+            height: 30px;
             background-color: #212121;
             color: white;
             display: flex;
