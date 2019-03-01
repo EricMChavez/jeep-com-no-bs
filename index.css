@@ -70,9 +70,9 @@ header{
     @media (min-width: 1250px){
         #pop-up{
             position: absolute;
-            top: 0;
+            top: 30;
             right: 0;
-            height: 80px;
+            height: 18px;
             border-left: white 1px solid;
             display: flex;
             align-items: center;
