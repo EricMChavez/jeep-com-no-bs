@@ -23,7 +23,7 @@ header{
         height: 44px;
         width: 63px;
         margin-right: auto;
-        background-image: url(logo.png);
+        background-image: url('./logo.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -112,7 +112,7 @@ header{
 }
 @media (min-width: 700px){
     #splash{
-        background-image: url(splash.jpg);
+        background-image: url('./splash.jpg');
         background-size: cover;
         height: 47vw;
         max-height: 546px;
@@ -264,12 +264,12 @@ header{
             width: 100%;
             height: 55%;
         }
-            .wrangler{background-image: url(wrangler.jpg);}
-            .g_cherokee{background-image: url(g_cherokee.jpg);}
-            .cherokee{background-image: url(cherokee.jpg);}
-            .compass{background-image: url(compass.jpg);}
-            .renegade{background-image: url(renegade.jpg);}
-            .gladiator{background-image: url(gladiator.jpg);}
+            .wrangler{background-image: url('./wrangler.jpg');}
+            .g_cherokee{background-image: url('./g_cherokee.jpg');}
+            .cherokee{background-image: url('./cherokee.jpg');}
+            .compass{background-image: url('./compass.jpg');}
+            .renegade{background-image: url('./renegade.jpg');}
+            .gladiator{background-image: url('./gladiator.jpg');}
 #tiles{
     display: flex;
     flex-wrap: wrap;
@@ -298,9 +298,9 @@ header{
                 height: 70%;
             }
         }
-            .t_compass{background-image: url(compass_tile.jpg)}
-            .t_g_cherokee{background-image: url(g-cherokee_tile.jpg)}
-            .t_cherokee{background-image: url(cherokee_tile.jpg)}
+            .t_compass{background-image: url('./compass_tile.jpg')}
+            .t_g_cherokee{background-image: url('./g-cherokee_tile.jpg')}
+            .t_cherokee{background-image: url('./cherokee_tile.jpg')}
 
         .lable{
             background-color: black;
@@ -349,7 +349,7 @@ header{
 }
 #graphic{
     flex: 1;
-    background-image: url(graphics.png);
+    background-image: url('./graphics.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
